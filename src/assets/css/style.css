@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 100px;
+}
+/* NAV BAR */
+.container {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  background-color: rgb(255, 255, 255);
+  width: 1024px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+}
+
+.nav-bar li {
+  list-style-type: none;
+  font-family: inter;
+  font-size: 14px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  padding: 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav .active,
+nav a:hover {
+  background-color: #4caf4f;
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px;
+}
+/* BODY LESSONS */
+#banner {
+  display: flex;
+  justify-content: center;
+  background-color: #abbed1;
+  background-position: center;
+  height: 500px;
+}
+
+.colum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1024px;
+}
+
+.Info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  height: 500px;
+}
+
+.Imagem {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  align-items: center;
+  height: 500px;
+}
+
+h1 {
+  font-family: inter;
+  color: #4d4d4d;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+span {
+  font-family: inter;
+  color: #4caf4f;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  color: #717171;
+}
+
+#bt-rg {
+  background-color: #4caf4f;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+#bt-rg a {
+  text-decoration: none;
+  color: #fff;
+}
+/*  CONTAINER CLIENTS */
+.clients {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+.clients h2 {
+  margin-top: 30px;
+  font-family: inter;
+  font-size: 30px;
+  color: #4d4d4d;
+}
+
+.clients p {
+  margin-top: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+}
+
+#banner2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#lg-clients {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-evenly;
+}
+.orgs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.orgs h2 {
+  font-family: inter;
+  color: #4d4d4d;
+}
+
+.orglg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.orglg p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+#fature {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+#fature h2 {
+  display: flex;
+  color: #4d4d4d;
+  margin-top: 25px;
+  font-family: inter;
+}
+
+#fature p {
+  display: flex;
+  margin-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#fature a {
+  margin-top: 15px;
+}
+
+#fature a button {
+  border-radius: 5px;
+  border: none;
+  background-color: #4caf4f;
+  color: #fff;
+  padding: 5px;
+}
