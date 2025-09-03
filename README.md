@@ -7,7 +7,7 @@ Pré-visualização
 
 <h1>Estrutura do Projeto 
 markdown </h1>
-Copiar código
+
 <p>/</p>
 <p>├── index.html</p>
 <p>├── style.css</p>
